@@ -35,12 +35,21 @@ font-family: sans-serif;
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
 .main-nav__items {
