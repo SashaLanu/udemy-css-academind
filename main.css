@@ -66,9 +66,12 @@ font-family: sans-serif;
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
+    border-bottom: 5px solid white;
 }
